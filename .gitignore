@@ -1,0 +1,6 @@
+*.ipynb
+/ettoday_train/
+/yahoonews_test/
+/technology/
+/test_time/
+yahoonews_test.zip
