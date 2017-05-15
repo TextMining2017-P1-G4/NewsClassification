@@ -29,6 +29,7 @@ jieba
 numpy
 pandas
 sklearn
+XlsxWriter
 ```
 
 ## Categories of news collected:
