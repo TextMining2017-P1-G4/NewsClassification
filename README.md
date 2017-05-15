@@ -16,6 +16,10 @@ python SVMTrainer.py -T [training_folder] -E [test_folder]
 - `training_folder`    : Folder name for training news.  
 - `test_folder`   : Folder name for testing news.
 
+## Outputs:
+- `parameters_summary.xlsx`    : Table that reports the test scores and corrisponding ranking for every combinations of parameter sets.
+- `prediction_summary.txt`    : Summary of the results predicted by using the best prediction model. 
+
 ## Required packages:
 ```
 requests
