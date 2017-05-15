@@ -2,7 +2,16 @@
 
 ## Usage
 To crawl the news from ETtoday:
-```pythonning_folder] -E [test_folder]
+```python
+python ETtodayCrawler.py -F [folder_name] -N [number]
+```
+- `folder_name`    : Folder name for creating folder to reposit news.
+- `number`   : Number of news for each catogory.
+
+
+To train and test the model of SVM with different parameters:
+```python
+pythonning_folder] -E [test_folder]
 ```
 - `training_folder`    : Folder name for training news.  
 - `test_folder`   : Folder name for testing news.
@@ -12,14 +21,7 @@ To crawl the news from ETtoday:
 requests
 beautifulsoup4
 urllib
-python ETtodayCrawler.py -F [folder_name] -N [number]
-```
-- `folder_name`    : Folder name for creating folder to reposit news.
-- `number`   : Number of news for each catogory.
 
-
-To train and test the model of SVM with different parameters:
-```python
 python SVMTrainer.py -T [trai
 jieba
 numpy
@@ -41,4 +43,4 @@ health - 健康
 travel - 旅遊
 odd - 新奇,寵物
 ```
-> The contents of news are got rid of ads, dates, reporters, figures (but keep captions)ten
+> The contents of news are gotten rid of ads, dates, reporters, figures (but keep captions)ten
