@@ -11,7 +11,7 @@ python ETtodayCrawler.py -F [folder_name] -N [number]
 
 To train and test the model of SVM with different parameters:
 ```python
-pythonning_folder] -E [test_folder]
+python SVMTrainer.py -T [training_folder] -E [test_folder]
 ```
 - `training_folder`    : Folder name for training news.  
 - `test_folder`   : Folder name for testing news.
@@ -21,8 +21,6 @@ pythonning_folder] -E [test_folder]
 requests
 beautifulsoup4
 urllib
-
-python SVMTrainer.py -T [trai
 jieba
 numpy
 pandas
