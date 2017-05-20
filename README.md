@@ -46,4 +46,4 @@ health - 健康
 travel - 旅遊
 odd - 新奇,寵物
 ```
-> The contents of news are gotten rid of ads, dates, reporters, figures (but keep captions)ten
+> The contents of news are gotten rid of ads, dates, reporters, and figures (but keep captions).
